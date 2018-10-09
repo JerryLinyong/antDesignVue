@@ -1,0 +1,55 @@
+#components-layout-demo-custom-trigger{
+    position: absolute;
+    width:100%;
+    height:100%;
+  }
+  #components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+  }
+  
+  #components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+  }
+  
+  #components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    background: rgba(255,255,255,.2);
+    margin: 16px;
+  }
+  .l-top{
+      background: rgba(0, 33, 64, 1);
+      height: 64px;
+      line-height: 64px;
+      padding-left:24px;
+      box-sizing: border-box;
+  }
+  
+  .L-H-right{
+    display: inline-block;
+    float: right;
+    padding-right:30px;
+    box-sizing:border-box;
+  }
+  .headport{
+    display: inline-block;
+    width:24px;
+    height:24px;
+    border:1px solid red;;
+    border-radius:50%; 
+    margin-top:-5px;
+  }
+  .userName{
+    display:inline-block;
+    width:auto;
+    height:22px;
+    line-height:22px;
+    text-align:center;
+    font-size:14px;
+    color:#989898;
+   
+  }
+  
